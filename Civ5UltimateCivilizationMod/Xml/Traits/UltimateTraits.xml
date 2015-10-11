@@ -13,6 +13,50 @@
 			<ShortDescription>TXT_KEY_TRAIT_ULTIMATE_CITY_STATE_SHORT</ShortDescription>
 			<NumTradeRoutesModifier>100</NumTradeRoutesModifier>
 		</Row>
+		<Row>
+			<Type>TRAIT_SIBIR</Type>
+			<Description>TXT_TRAIT_SIBIR</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SIBIR</ShortDescription>
+		</Row>
 	</Traits>
-  
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_SIBIR</TraitType>
+			<ResourceType>RESOURCE_ALUMINIUM</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	
 </GameData>

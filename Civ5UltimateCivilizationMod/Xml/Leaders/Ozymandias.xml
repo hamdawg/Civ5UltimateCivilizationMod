@@ -339,7 +339,7 @@
 		<!--Ultimate Civ must be highly Industrious (that includes getting the most out of your resources)-->
 		<Row>
 			<LeaderType>LEADER_OZYMANDIAS</LeaderType>
-			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType><!-- For some reason the 2x resources part of this doesn't work. -->
+			<TraitType>TRAIT_SIBIR</TraitType>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_OZYMANDIAS</LeaderType>
