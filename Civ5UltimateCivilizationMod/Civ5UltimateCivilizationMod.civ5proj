@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{39dee2ef-31bb-4069-9da6-3de345f0ea0b}</ProjectGuid>
+    <Name>Ultimate Civilization</Name>
+    <Guid>5d91b352-ba1c-40d1-89c2-5051bed9d61f</Guid>
+    <ModVersion>9</ModVersion>
+    <Stability>Stable</Stability>
+    <Teaser>A civilization that has replaced all regular units with the best available unique unit. It is the best mankind has to offer.</Teaser>
+    <Description>A civilization that has replaced all regular units with the best available unique unit, &amp; all regular buildings with the best available unique building.  It is the best mankind has to offer. You'll have the bonus traits of any civilization that would otherwise prove you inferior. You can also build the Terrace Farm, Polder &amp; Kasbah.
+
+A great civilization to play on Deity difficulty.
+
+Unique Units
+
+Scout
+Pathfinder
+
+Archery
+Bowman
+LongBowman
+
+Melee
+Jaguar
+RomanLegion
+Samurai
+Immortal
+Impi
+
+Lancer
+Winged Hussar
+
+Mounted
+HorseArcher
+ForestElephant
+Keshik
+Hussar
+
+Siege
+SiegeTower
+
+Naval
+Quinquereme
+GreatGalleass
+Nau
+SeaBeggar
+ShipOfTheLine
+
+Gunpowder
+Janissary
+Carolean
+Pracinha
+
+Armor
+Panzer
+
+Air
+Zero
+B17
+
+Great People
+VenetianMerchant
+Khan
+
+Unique Buildings
+
+Watermill &gt; FloatingGardens
+
+Military
+WallsOfBabylon
+Castle &gt; MughalFort
+Barracks &gt; Ikanda
+
+Science
+RoyalLibrary
+University &gt; Wat
+
+Production
+DucalStable
+UltimateLonghouse (also has the +10% production of workshops)
+Windmill &gt; CoffeeHouse
+
+Economic
+Market &gt; Bazaar
+Bank &gt; Hanse
+
+Culture
+Monument &gt; Stele
+Opera House &gt; CeilidhHall
+
+Faith / GP buildings
+Shrine &gt; MayaPyramid
+Temple &gt; BurialTomb
+Garden &gt; Candi
+
+Traits
+
+Ingenuity
+Receive free Great Scientist when you discover Writing. Earn Great Scientists 50% faster
+
+ScholarsOfTheJadeHall
++2 science for all specialists &amp; for all Great Person tile improvements. Receive a tech boost each time a scientific building/Wonder is built in your capital
+
+TreasuresOfNinevah
+When a city is conquered, gain a free tech already discovered by its owner (cannot be gained through trade deal, &amp; only once per city)
+
+Iklwa
+Melee units cost 50% less maintenance. All promotions require 25% less experience
+
+Art of War
+The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%
+
+Bushido
+Units fight as though they were at full strength even when damaged. +1 Culture from each Fishing Boat, +2 Culture from each Atoll
+
+ScourgeOfGod
+Raze Cities at 2x speed. Borrow City names from other Civs. Start with Animal Husbandry tech. +1 Production on Pasture
+
+FurorTeutonicus
+Upon defeating a Barbarian unit in an encampment, there is a 67% they join your side (still get gold). Pay 25% less for land unit maintenance
+
+BarbaryCorsairs
+All melee naval units have the Prize Ships promotion, allowing them to capture defeated ships. Pay only 1/3 usual cost for naval unit maintenance
+
+GreatExpanse
+Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory
+
+ManifestDestiny
+All land military units have +1 sight. Buy tiles for 1/2 price
+
+SunNeverSets
++2 Movement for all naval units. Receives 1 extra Spy
+
+Partial Siberian Riches
+Strategic Resources provide +1 Production
+
+MonumentBuilders
++20% Production towards Wonder construction
+
+AchaemenidLegacy
+Golden Ages last 50% longer. During a Golden Age, units receive +1 Movement &amp; +10% Strength in combat
+
+GloryOfRome
++25% Production towards any buildings that already exist in the Capital
+
+GreatWarpath
+Units move through Forest &amp; Jungle in friendly territory as if it is Road. These tiles can be used to establish Trade Routes upon researching The Wheel
+
+GreatAndeanRoad
+Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; 1/2 cost elsewhere
+
+PhoenicianHeritage
+Units may cross mountains after the first Khan is earned, taking 50 HP damage if they end a turn on a mountain
+
+VikingFury
+Embarked units have +1 Movement &amp; pay just 1 movement point to move from sea to land. Melee units pay no movement point cost to pillage
+
+RiverWarlord
+Receive 3x Gold from Barbarian encampments &amp; pillaging Cities. Embarked units can defend themselves
+
+Sacrificial Captives
+Gains Culture for the empire from each enemy unit killed.
+
+Solidarity
+Receive a free Social Policy when you advance to the next era
+...</Description>
+    <Authors>Dustin Hammett (hamdawg87)</Authors>
+    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials.</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <AssemblyName>Civ5UltimateCivilizationMod</AssemblyName>
+    <RootNamespace>Civ5UltimateCivilizationMod</RootNamespace>
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Colored Religion</Name>
+        <Id>47c48eeb-3930-428f-ac45-ab8acddb2726</Id>
+        <MinVersion>3</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <ModDependencies>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 1 - Gods and Kings</Name>
+        <Id>0E3751A1-F840-4e1b-9706-519BF484E59D</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Expansion 2 - Brave New World</Name>
+        <Id>6DA07636-4123-4018-B643-6575B4EC336B</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Upgrade 1</Name>
+        <Id>8871E748-29A4-4910-8C57-8C99E32D0167</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Nebuchadnezzar's Babylon</Name>
+        <Id>7459BA32-5764-44ae-8E95-01AD0E0EFD48</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Genghis Khan's Mongolia</Name>
+        <Id>293C1EE3-1176-44f6-AC1F-59663826DE74</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Sejong The Great's Korea</Name>
+        <Id>112C22B2-5308-42b6-B734-171CCAB3037B</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Isabella's Spain and Pachacuti's Incan Empire</Name>
+        <Id>B685D5DE-7CCA-4e75-81B4-2F60754E6330</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Harald Bluetooth's Denmark</Name>
+        <Id>B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Dlc</Type>
+        <Name>Kamehameha's Polynesian Empire</Name>
+        <Id>ECF7C605-BA11-4CAC-8D80-D71306AAC471</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModDependencies>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/NewText/GameText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/NewText/LeaderDialog/Civ5_Dialog_Ozymandias.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Traits/UltimateTraits.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Leaders/Ozymandias.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/NewText/Diplomacy_Responses.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/GameInfo/IconTextureAtlases.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Sounds/Sounds.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Buildings/UltimateLonghouse.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Civilizations/Ultimate_Civilization.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Terrain/UniqueTileImprovements.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Xml/Builds/BuildRuleChanges.xml</FileName>
+      </Action>
+    </ModActions>
+    <ModBlockers>
+      <Association xmlns="">
+        <Type>Mod</Type>
+        <Name>Expanded Civilopedia Entries (Brave New World)</Name>
+        <Id>0e92d75e-78fc-419d-94c7-90886dc4e87f</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModBlockers>
+    <ReloadAudioSystem>true</ReloadAudioSystem>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Art" />
+    <Folder Include="Sounds" />
+    <Folder Include="Xml" />
+    <Folder Include="Xml\Civilizations" />
+    <Folder Include="Xml\Leaders" />
+    <Folder Include="Xml\Builds" />
+    <Folder Include="Xml\GameInfo" />
+    <Folder Include="Xml\Buildings" />
+    <Folder Include="Xml\NewText\LeaderDialog" />
+    <Folder Include="Xml\Traits" />
+    <Folder Include="Xml\Sounds" />
+    <Folder Include="Xml\Terrain" />
+    <Folder Include="Xml\NewText" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Art\UltimateCivEmblem128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UltimateCivEmblem256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UltimateCivEmblem32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UltimateCivEmblem45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UltimateCivEmblem64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\UltimateCivEmblem80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Sounds\Ultimate.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Buildings\UltimateLonghouse.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Builds\BuildRuleChanges.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Civilizations\Ultimate_Civilization.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\GameInfo\IconTextureAtlases.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Leaders\Ozymandias.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\NewText\Diplomacy_Responses.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\NewText\GameText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\NewText\LeaderDialog\Civ5_Dialog_Ozymandias.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Sounds\Sounds.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Terrain\UniqueTileImprovements.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Xml\Traits\UltimateTraits.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/22/2015 11:14:26 PM -->
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_DEFEATED%</Response>
+		</Row>
+		
+		<!-- ToDo: Not sure the others past here will work. I don't think there are corresponding response texts in my dialog file! -->
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+
+		<!-- Other response types I could give text for:
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_OZYMANDIAS_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_OZYMANDIAS_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_OZYMANDIAS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_OZYMANDIAS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		
+		-->
+	</Diplomacy_Responses>
+</GameData>

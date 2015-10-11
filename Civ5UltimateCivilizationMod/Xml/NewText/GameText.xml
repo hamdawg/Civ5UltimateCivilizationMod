@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/23/2015 9:33:06 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ULTIMATE">
+			<Text>Ultimate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ULTIMATE_DESC">
+			<Text>Ultimate Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_0">
+			<Text>Sterling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_1">
+			<Text>Lana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_2">
+			<Text>James</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_3">
+			<Text>Natasha</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_4">
+			<Text>Mycroft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_5">
+			<Text>Tatiana</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_6">
+			<Text>Mostafa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_7">
+			<Text>Mr. Eks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_8">
+			<Text>Viper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_ULTIMATE_9">
+			<Text>Brutus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ULTIMATUM">
+			<Text>Ultimatum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_ULTIMATE_TEXT">
+			<Text>
+				"[TAB][TAB]Two vast and trunkless legs of stone [NEWLINE]
+				Stand in the desert. Near them, on the sand, [NEWLINE]
+				Half sunk, a shattered visage lies, whose frown, [NEWLINE]
+				And wrinkled lip, and sneer of cold command, [NEWLINE]
+				Tell that its sculptor well those passions read [NEWLINE]
+				Which yet survive, stamped on these lifeless things, [NEWLINE]
+				The hand that mocked them and the heart that fed: [NEWLINE][NEWLINE]
+				And on the pedestal these words appear: [NEWLINE]
+				'My name is Ozymandias, king of kings: [NEWLINE]
+				Look on my works, ye Mighty, and despair!' [NEWLINE]
+				Nothing beside remains." [NEWLINE]
+				--Excert from Shelley's "Ozymandias"
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ULTIMATE_CITY_STATE_SHORT">
+			<Text>
+				The Most Serene Republic
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ULTIMATE_CITY_STATE">
+			<Text>
+				Double the normal number of trade routes available. Venetian Merchant replaces Great Merchant.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_HEADING_1">
+			<Text>Game Info (continued)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_TEXT_1">
+			<Text>
+				[TAB][TAB]Scholars of the Jade Hall[NEWLINE]
+				[NEWLINE]
+				+2 [ICON_RESEARCH] science for all specialists and for all Great Person tile improvements. Receive a tech boost each time a scientific building/Wonder is built in your capital.[NEWLINE]
+				[NEWLINE]
+				Treasures of Ninevah[NEWLINE]
+				[NEWLINE]
+				When a city is conquered, gain a free Technology already discovered by its owner.  Gaining a city through a trade deal does not count, and it can only happen once per enemy city.[NEWLINE]
+				[NEWLINE]
+				Iklwa[NEWLINE]
+				[NEWLINE]
+				Melee units cost 50% less maintenance. All units require 25% less experience to earn their next promotion.[NEWLINE]
+				[NEWLINE]
+				Art of War[NEWLINE]
+				[NEWLINE]
+				The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%.[NEWLINE]
+				[NEWLINE]
+				Bushido[NEWLINE]
+				[NEWLINE]
+				Units fight as though they were at full strength even when damaged. +1 [ICON_CULTURE] Culture from each Fishing Boat and +2 [ICON_CULTURE] Culture from each Atoll.[NEWLINE]
+				[NEWLINE]
+				Scourge of God[NEWLINE]
+				[NEWLINE]
+				Raze Cities at double speed. Borrow City names from other in-game Civs. Start with Animal Husbandry technology. +1 [ICON_PRODUCTION] Production per Pasture.[NEWLINE]
+				[NEWLINE]
+				Furor Teutonicus[NEWLINE]
+				[NEWLINE]
+				Upon defeating a Barbarian unit inside an encampment, there is a 67% chance you earn 25 [ICON_GOLD] Gold and they join your side. Pay 25% less for land unit maintenance.[NEWLINE]
+				[NEWLINE]
+				Barbary Corsairs[NEWLINE]
+				[NEWLINE]
+				All melee naval units have the Prize Ships promotion, allowing them to capture defeated ships. Pay only one-third the usual cost for naval unit maintenance.[NEWLINE]
+				[NEWLINE]
+				Great Expanse[NEWLINE]
+				[NEWLINE]
+				Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory.[NEWLINE]
+				[NEWLINE]
+				Manifest Destiny[NEWLINE]
+				[NEWLINE]
+				All land military units have +1 sight. 50% discount when purchasing tiles.[NEWLINE]
+				[NEWLINE]
+				Sun Never Sets[NEWLINE]
+				[NEWLINE]
+				+2 [ICON_MOVES] Movement for all naval units. Receives 1 extra Spy.[NEWLINE]
+				[NEWLINE]
+				Siberian Riches[NEWLINE]
+				[NEWLINE]
+				Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity.[NEWLINE]
+				[NEWLINE]
+				Monument Builders[NEWLINE]
+				[NEWLINE]
+				+20% [ICON_PRODUCTION] Production towards Wonder construction.[NEWLINE]
+				[NEWLINE]
+				Achaemenid Legacy[NEWLINE]
+				[NEWLINE]
+				[ICON_GOLDEN_AGE] Golden Ages last 50% longer. During a Golden Age, units receive +1 [ICON_MOVES] Movement and a +10% [ICON_STRENGTH] Combat Strength bonus.[NEWLINE]
+				[NEWLINE]
+				The Glory of Rome[NEWLINE]
+				[NEWLINE]
+				+25% [ICON_PRODUCTION] Production towards any buildings that already exist in the [ICON_CAPITAL] Capital.[NEWLINE]
+				[NEWLINE]
+				The Great Warpath[NEWLINE]
+				[NEWLINE]
+				Units move through Forest and Jungle in friendly territory as if it is Road. These tiles can be used to establish [ICON_CONNECTED] Trade Routes upon researching The Wheel.[NEWLINE]
+				[NEWLINE]
+				Great Andean Road[NEWLINE]
+				[NEWLINE]
+				Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; half cost elsewhere.[NEWLINE]
+				[NEWLINE]
+				Partial Phoenician Heritage[NEWLINE]
+				[NEWLINE]
+				Units may cross mountains after the first Great General is earned, taking 50 HP damage if they end a turn on a mountain.[NEWLINE]
+				[NEWLINE]
+				Wayfinding[NEWLINE]
+				[NEWLINE]
+				Can embark and move over Oceans immediately. +1 Sight when embarked. +10% [ICON_STRENGTH] Combat Strength bonus if within 2 tiles of a Moai.[NEWLINE]
+				[NEWLINE]
+				Viking Fury[NEWLINE]
+				[NEWLINE]
+				Embarked units have +1 Movement [ICON_MOVES] and pay just 1 movement point to move from sea to land. Melee units pay no movement point cost to pillage.[NEWLINE]
+				[NEWLINE]
+				River Warlord
+				[NEWLINE]
+				Receive triple [ICON_GOLD] Gold from Barbarian encampments and pillaging Cities. Embarked units can defend themselves.[NEWLINE]
+				[NEWLINE]
+				Sacrificial Captives[NEWLINE]
+				[NEWLINE]
+				Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed.[NEWLINE]
+				[NEWLINE]
+				Solidarity[NEWLINE]
+				[NEWLINE]
+				Receive a free Social Policy when you advance to the next era.[NEWLINE]
+				[NEWLINE]
+				City of Light[NEWLINE]
+				[NEWLINE]
+				Museum and World Wonder theming bonuses are doubled in their capital.[NEWLINE]
+				[NEWLINE]
+				The Long Count[NEWLINE]
+				[NEWLINE]
+				After researching Theology, receive a bonus Great Person at the end of every Maya Long Count calendar cycle (every 394 years). Each bonus person can only be chosen once.[NEWLINE]
+				[NEWLINE]
+				Patriarchate of Constantinople[NEWLINE]
+				[NEWLINE]
+				Choose one more Belief than normal when you found a Religion.[NEWLINE]
+				[NEWLINE]
+				Carnival[NEWLINE]
+				[NEWLINE]
+				Tourism [ICON_TOURISM] output is +100% during their Golden Ages. Earn Great Artists, Musicians, and Writers 50% faster during their Golden Ages.[NEWLINE]
+				[NEWLINE]
+				Seven Cities of Gold[NEWLINE]
+				[NEWLINE]
+				[ICON_GOLD] Gold bonus for discovering a Natural Wonder (bonus enhanced if first to discover it). [ICON_CULTURE] Culture, [ICON_HAPPINESS_1] Happiness, and tile yields from Natural Wonders doubled.[NEWLINE]
+				[NEWLINE]
+				The Most Serene Republic[NEWLINE]
+				[NEWLINE]
+				Double the normal number of trade routes available. Merchant of Venice replaces Great Merchant.[NEWLINE]
+				[NEWLINE]
+				Hellenic League[NEWLINE]
+				[NEWLINE]
+				City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate.[NEWLINE]
+				[NEWLINE]
+				Nobel Prize[NEWLINE]
+				[NEWLINE]
+				Gain 90 [ICON_INFLUENCE] Influence with a Great Person gift to a City-State. When declaring friendship, Sweden and their friend gain a +10% boost to Great Person generation.[NEWLINE]
+				[NEWLINE]
+				Father Governs Children[NEWLINE]
+				[NEWLINE]
+				[ICON_FOOD] Food and [ICON_CULTURE] Culture from friendly City-States increased by 50%.[NEWLINE]
+				[NEWLINE]
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ULTIMATE_HEADING_1">
+			<Text>Credits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ULTIMATE_TEXT_1">
+			<Text>
+				hamdawg87's ultimate civilization mod[NEWLINE]
+				[NEWLINE]"Look on my works ye mighty, and despair."
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_HEADING_2">
+			<Text>Excert from Horace Smith's "Ozymandias"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_TEXT_2">
+			<Text>
+				"I am great OZYMANDIAS," saith the stone,[NEWLINE]
+				"The King of Kings; this mighty City shows[NEWLINE]
+				The wonders of my hand."— The City's gone,—[NEWLINE]
+				Nought but the Leg remaining to disclose[NEWLINE]
+				The site of this forgotten Babylon.[NEWLINE]
+				[NEWLINE]
+				We wonder,—and some Hunter may express[NEWLINE]
+				Wonder like ours, when thro' the wilderness[NEWLINE]
+				Where London stood, holding the Wolf in chace,[NEWLINE]
+				He meets some fragment huge, and stops to guess[NEWLINE]
+				What powerful but unrecorded race[NEWLINE]
+				Once dwelt in that annihilated place.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_LIVED">
+			<Text>Long ago</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_NAME">
+			<Text>Ozymandias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_TITLES_1">
+			<Text>King of kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_OZYMANDIAS_SUBTITLE">
+			<Text>Leader of the Ultimate Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_OZYMANDIAS">
+			<Text>Ozymandias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ULTIMATE_LONGHOUSE_DESC">
+			<Text>Ultimate Longhouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ULTIMATE_LONGHOUSE_HELP">
+			<Text>
+				+1 [ICON_PRODUCTION] Production from each worked Forest tile. [NEWLINE]
+				[NEWLINE]Allows [ICON_PRODUCTION] to be moved from this city along trade routes inside your civilization.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ULTIMATE_LONGHOUSE_STRATEGY">
+			<Text>The Ultimate Longhouse is a modified Iroquois unique building for use by the Ultimate Civilization, replacing the Workshop. It increases the city's [ICON_PRODUCTION] Production output for each forest within the city's radius, while also retaining the production bonus of the workshop</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

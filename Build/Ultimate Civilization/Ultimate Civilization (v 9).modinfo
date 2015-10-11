@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5d91b352-ba1c-40d1-89c2-5051bed9d61f" version="9">
+  <Properties>
+    <Name>Ultimate Civilization</Name>
+    <Teaser>A civilization that has replaced all regular units with the best available unique unit. It is the best mankind has to offer.</Teaser>
+    <Description>A civilization that has replaced all regular units with the best available unique unit, &amp; all regular buildings with the best available unique building.  It is the best mankind has to offer. You'll have the bonus traits of any civilization that would otherwise prove you inferior. You can also build the Terrace Farm, Polder &amp; Kasbah.
+
+A great civilization to play on Deity difficulty.
+
+Unique Units
+
+Scout
+Pathfinder
+
+Archery
+Bowman
+LongBowman
+
+Melee
+Jaguar
+RomanLegion
+Samurai
+Immortal
+Impi
+
+Lancer
+Winged Hussar
+
+Mounted
+HorseArcher
+ForestElephant
+Keshik
+Hussar
+
+Siege
+SiegeTower
+
+Naval
+Quinquereme
+GreatGalleass
+Nau
+SeaBeggar
+ShipOfTheLine
+
+Gunpowder
+Janissary
+Carolean
+Pracinha
+
+Armor
+Panzer
+
+Air
+Zero
+B17
+
+Great People
+VenetianMerchant
+Khan
+
+Unique Buildings
+
+Watermill &gt; FloatingGardens
+
+Military
+WallsOfBabylon
+Castle &gt; MughalFort
+Barracks &gt; Ikanda
+
+Science
+RoyalLibrary
+University &gt; Wat
+
+Production
+DucalStable
+UltimateLonghouse (also has the +10% production of workshops)
+Windmill &gt; CoffeeHouse
+
+Economic
+Market &gt; Bazaar
+Bank &gt; Hanse
+
+Culture
+Monument &gt; Stele
+Opera House &gt; CeilidhHall
+
+Faith / GP buildings
+Shrine &gt; MayaPyramid
+Temple &gt; BurialTomb
+Garden &gt; Candi
+
+Traits
+
+Ingenuity
+Receive free Great Scientist when you discover Writing. Earn Great Scientists 50% faster
+
+ScholarsOfTheJadeHall
++2 science for all specialists &amp; for all Great Person tile improvements. Receive a tech boost each time a scientific building/Wonder is built in your capital
+
+TreasuresOfNinevah
+When a city is conquered, gain a free tech already discovered by its owner (cannot be gained through trade deal, &amp; only once per city)
+
+Iklwa
+Melee units cost 50% less maintenance. All promotions require 25% less experience
+
+Art of War
+The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%
+
+Bushido
+Units fight as though they were at full strength even when damaged. +1 Culture from each Fishing Boat, +2 Culture from each Atoll
+
+ScourgeOfGod
+Raze Cities at 2x speed. Borrow City names from other Civs. Start with Animal Husbandry tech. +1 Production on Pasture
+
+FurorTeutonicus
+Upon defeating a Barbarian unit in an encampment, there is a 67% they join your side (still get gold). Pay 25% less for land unit maintenance
+
+BarbaryCorsairs
+All melee naval units have the Prize Ships promotion, allowing them to capture defeated ships. Pay only 1/3 usual cost for naval unit maintenance
+
+GreatExpanse
+Founded cities start with additional territory. Units receive a combat bonus when fighting within their own territory
+
+ManifestDestiny
+All land military units have +1 sight. Buy tiles for 1/2 price
+
+SunNeverSets
++2 Movement for all naval units. Receives 1 extra Spy
+
+Partial Siberian Riches
+Strategic Resources provide +1 Production
+
+MonumentBuilders
++20% Production towards Wonder construction
+
+AchaemenidLegacy
+Golden Ages last 50% longer. During a Golden Age, units receive +1 Movement &amp; +10% Strength in combat
+
+GloryOfRome
++25% Production towards any buildings that already exist in the Capital
+
+GreatWarpath
+Units move through Forest &amp; Jungle in friendly territory as if it is Road. These tiles can be used to establish Trade Routes upon researching The Wheel
+
+GreatAndeanRoad
+Units ignore terrain costs when moving into any tile with Hills. No maintenance costs for improvements in Hills; 1/2 cost elsewhere
+
+PhoenicianHeritage
+Units may cross mountains after the first Khan is earned, taking 50 HP damage if they end a turn on a mountain
+
+VikingFury
+Embarked units have +1 Movement &amp; pay just 1 movement point to move from sea to land. Melee units pay no movement point cost to pillage
+
+RiverWarlord
+Receive 3x Gold from Barbarian encampments &amp; pillaging Cities. Embarked units can defend themselves
+
+Sacrificial Captives
+Gains Culture for the empire from each enemy unit killed.
+
+Solidarity
+Receive a free Social Policy when you advance to the next era
+...</Description>
+    <Authors>Dustin Hammett (hamdawg87)</Authors>
+    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials.</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>1</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="8871E748-29A4-4910-8C57-8C99E32D0167" minversion="0" maxversion="999" />
+    <Dlc id="7459BA32-5764-44ae-8E95-01AD0E0EFD48" minversion="0" maxversion="999" />
+    <Dlc id="293C1EE3-1176-44f6-AC1F-59663826DE74" minversion="0" maxversion="999" />
+    <Dlc id="112C22B2-5308-42b6-B734-171CCAB3037B" minversion="0" maxversion="999" />
+    <Dlc id="B685D5DE-7CCA-4e75-81B4-2F60754E6330" minversion="0" maxversion="999" />
+    <Dlc id="B3030D39-C0D8-4bc7-91B1-7AD1CAF585AB" minversion="0" maxversion="999" />
+    <Dlc id="ECF7C605-BA11-4CAC-8D80-D71306AAC471" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="47c48eeb-3930-428f-ac45-ab8acddb2726" minversion="3" maxversion="999" title="Colored Religion" />
+  </References>
+  <Blocks>
+    <Mod id="0e92d75e-78fc-419d-94c7-90886dc4e87f" minversion="0" maxversion="999" title="Expanded Civilopedia Entries (Brave New World)" />
+  </Blocks>
+  <Files>
+    <File md5="F5EA2855FE30C885BCF398009578AE6F" import="1">Art/UltimateCivEmblem128.dds</File>
+    <File md5="9797F7DF65F43859D0D2638F284F27DA" import="1">Art/UltimateCivEmblem256.dds</File>
+    <File md5="9D7135CBAE86BB56A0C706A3C31C36E4" import="1">Art/UltimateCivEmblem32.dds</File>
+    <File md5="F5462AC10BF071FA81C7EC5C86530950" import="1">Art/UltimateCivEmblem45.dds</File>
+    <File md5="5D564D4EC5228541C7163A3834C53045" import="1">Art/UltimateCivEmblem64.dds</File>
+    <File md5="61CD8BD57A11FFD8237F3EF09272669B" import="1">Art/UltimateCivEmblem80.dds</File>
+    <File md5="898796D23C1FCBC5B8B4855B835A94C4" import="1">Sounds/Ultimate.mp3</File>
+    <File md5="BE47EA338B282E53E3373A3ABB8D832E" import="0">Xml/Buildings/UltimateLonghouse.xml</File>
+    <File md5="0FF389FBB70FABCDC4714B50B4561D54" import="0">Xml/Builds/BuildRuleChanges.xml</File>
+    <File md5="3F2EFBB42A549F3A6B1264A39F93A4C3" import="0">Xml/Civilizations/Ultimate_Civilization.xml</File>
+    <File md5="23F4821FCBEB63E0E11A9CA7574895EC" import="0">Xml/GameInfo/IconTextureAtlases.xml</File>
+    <File md5="0EDA1A1D5D38E990C586425E7E6B21E2" import="0">Xml/Leaders/Ozymandias.xml</File>
+    <File md5="4070570D20EEF9550E37C830EB872D7A" import="0">Xml/NewText/Diplomacy_Responses.xml</File>
+    <File md5="449A29A0DC1505CD313A94328EE0DFCD" import="0">Xml/NewText/GameText.xml</File>
+    <File md5="26A033DBC6A32669BE68CE18FDB2F190" import="0">Xml/NewText/LeaderDialog/Civ5_Dialog_Ozymandias.xml</File>
+    <File md5="568604BE2E2E6F2DB0760B57F5DE5D83" import="0">Xml/Sounds/Sounds.xml</File>
+    <File md5="D494FAD9AE33F355F02ECECAF8E8B986" import="0">Xml/Terrain/UniqueTileImprovements.xml</File>
+    <File md5="81A8F6BF20D1FA5B656A042194374150" import="0">Xml/Traits/UltimateTraits.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Xml/NewText/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/NewText/LeaderDialog/Civ5_Dialog_Ozymandias.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Traits/UltimateTraits.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Leaders/Ozymandias.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/NewText/Diplomacy_Responses.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/GameInfo/IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Sounds/Sounds.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Buildings/UltimateLonghouse.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Civilizations/Ultimate_Civilization.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Terrain/UniqueTileImprovements.xml</UpdateDatabase>
+      <UpdateDatabase>Xml/Builds/BuildRuleChanges.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

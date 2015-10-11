@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/28/2015 10:02:20 PM -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_DOM_SPEECH_ULTIMATE</SoundID>
+			<Filename>Ultimate</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_DOM_SPEECH_ULTIMATE</ScriptID>
+			<SoundID>SND_DOM_SPEECH_ULTIMATE</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<MinVolume>80</MinVolume>
+			<MaxVolume>80</MaxVolume>
+		</Row>
+	</Audio_2DSounds>
+  
+</GameData>

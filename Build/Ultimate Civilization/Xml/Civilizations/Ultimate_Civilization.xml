@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/22/2015 11:10:30 PM -->
+<GameData>
+	<Civilizations>
+		<Row>
+			<Type>CIVILIZATION_ULTIMATE</Type>
+			<Description>TXT_KEY_ULTIMATE_DESC</Description>
+			<AIPlayable>false</AIPlayable>
+			<ShortDescription>TXT_KEY_ULTIMATE</ShortDescription>
+			<Adjective>TXT_KEY_ULTIMATE</Adjective>
+			<CivilopediaTag>TXT_KEY_CIV5_ULTIMATE</CivilopediaTag>
+			<DefaultPlayerColor>PLAYERCOLOR_GOLD_AND_BLACK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_AMERICA</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<PortraitIndex>0</PortraitIndex><!-- If Icon broken, use index 18 with CIV_COLOR_ATLAS-->
+			<IconAtlas>CIV_COLOR_ATLAS_ULTIMATE</IconAtlas>
+			<AlphaIconAtlas>CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>MapRussia512.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_ULTIMATE_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_Nebuchadnezzar.dds</DawnOfManImage>
+			<DawnOfManAudio>AS2D_DOM_SPEECH_ULTIMATE</DawnOfManAudio> <!--See Ishipp's post for how to put in an audio file.-->
+			<SoundTrackTag>BABYLON</SoundTrackTag> <!--Just use babylon's sound track for now. I may add some unique music later.-->
+		</Row>
+	</Civilizations>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
+		</Row>
+		
+		<!--Military Buildings-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_WALLS_OF_BABYLON</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<BuildingType>BUILDING_IKANDA</BuildingType>
+		</Row>
+		
+		<!--Science Buildings-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_ROYAL_LIBRARY</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_WAT</BuildingType>
+		</Row>
+		
+		<!--Production buildings-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_DUCAL_STABLE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingType>BUILDING_ULTIMATE_LONGHOUSE</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<BuildingType>BUILDING_COFFEE_HOUSE</BuildingType>
+		</Row>
+		
+		<!--Economic buildings-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<BuildingType>BUILDING_HANSE</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
+		</Row>-->
+		
+		<!--Culture buildings-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_STELE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<BuildingType>BUILDING_CEILIDH_HALL</BuildingType>
+		</Row>
+		
+		<!--Faith buildings / GP buildings-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GARDEN</BuildingClassType>
+			<BuildingType>BUILDING_CANDI</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_CityNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ULTIMATUM</CityName>
+		</Row>
+		<!-- Using the most populous cities in the world (just the ones already in the game) in order.-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_TOKYO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_JAKARTA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_DELHI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SEOUL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_SHANGHAI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_NEW_YORK</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BEIJING</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_OSAKA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MOSCOW</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LOS_ANGELES</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ISTANBUL</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PARIS</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_CHICAGO</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_LONDON</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ESSEN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_MIAMI</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_PHILADELPHIA</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_STPETERSBURG</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ROME</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<Count>1</Count>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+		</Row>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<LeaderheadType>LEADER_OZYMANDIAS</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	<Civilization_SpyNames>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_0</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_1</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_2</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_3</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_4</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_5</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_6</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_7</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_8</SpyName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_ULTIMATE_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<Civilization_UnitClassOverrides>
+		<!--Put "Best" 2 units first so they show in UI.-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+			<UnitType>UNIT_ZULU_IMPI</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
+		</Row>
+		<!--Scout-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+		</Row>
+		
+		<!--Archery Units-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitType>UNIT_BABYLONIAN_BOWMAN</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+			<UnitType>UNIT_MAYA_ATLATLIST</UnitType>
+		</Row>-->
+		
+		<!--Melee Units-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
+			<UnitType>UNIT_ROMAN_LEGION</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+		</Row>-->
+
+		<!--Lancer-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+			<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+		</Row>-->
+		
+
+		<!--Mounted Units-->
+
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CHARIOT_ARCHER</UnitClassType>
+			<UnitType>UNIT_HUN_HORSE_ARCHER</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CHARIOT_ARCHER</UnitClassType>
+			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+			<UnitType>UNIT_MONGOLIAN_KESHIK</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
+		</Row>-->
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+			<UnitType>UNIT_AUSTRIAN_HUSSAR</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+			<UnitType>UNIT_BERBER_CAVALRY</UnitType>
+		</Row>-->
+		
+		<!--Siege Units-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
+		</Row>-->
+		
+		<!--Naval Units-->
+
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
+			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_GALLEASS</UnitClassType>
+			<UnitType>UNIT_VENETIAN_GALLEASS</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<UnitType>UNIT_PORTUGUESE_NAU</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
+			<UnitType>UNIT_KOREAN_TURTLE_SHIP</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
+			<UnitType>UNIT_DUTCH_SEA_BEGGAR</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+		</Row>
+		
+		<!--Gunpowder Units-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
+		</Row>
+		<!--<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+			<UnitType>UNIT_FRENCH_MUSKETEER</UnitType>
+		</Row>-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitType>UNIT_SWEDISH_CAROLEAN</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
+		</Row>
+		
+		<!--Armor Units-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_TANK</UnitClassType>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+		</Row>
+		
+		<!--Air Units-->
+		
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
+			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+		</Row>
+		
+		<!--Great People-->
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_MERCHANT</UnitClassType>
+			<UnitType>UNIT_VENETIAN_MERCHANT</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<UnitType>UNIT_MONGOLIAN_KHAN</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_Start_Region_Avoid>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<RegionType>REGION_TUNDRA</RegionType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ULTIMATE</CivilizationType>
+			<RegionType>REGION_DESERT</RegionType>
+		</Row>
+	</Civilization_Start_Region_Avoid>
+  
+</GameData>
