@@ -5,7 +5,7 @@
     <ProjectGuid>{39dee2ef-31bb-4069-9da6-3de345f0ea0b}</ProjectGuid>
     <Name>Ultimate Civilization</Name>
     <Guid>5d91b352-ba1c-40d1-89c2-5051bed9d61f</Guid>
-    <ModVersion>9</ModVersion>
+    <ModVersion>10</ModVersion>
     <Stability>Stable</Stability>
     <Teaser>A civilization that has replaced all regular units with the best available unique unit. It is the best mankind has to offer.</Teaser>
     <Description>A civilization that has replaced all regular units with the best available unique unit, &amp; all regular buildings with the best available unique building.  It is the best mankind has to offer. You'll have the bonus traits of any civilization that would otherwise prove you inferior. You can also build the Terrace Farm, Polder &amp; Kasbah.
@@ -166,7 +166,7 @@ Solidarity
 Receive a free Social Policy when you advance to the next era
 ...</Description>
     <Authors>Dustin Hammett (hamdawg87)</Authors>
-    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials.</SpecialThanks>
+    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials. pip33pen for suggestions</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>

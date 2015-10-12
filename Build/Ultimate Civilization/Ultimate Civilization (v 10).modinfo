@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="5d91b352-ba1c-40d1-89c2-5051bed9d61f" version="9">
+<Mod id="5d91b352-ba1c-40d1-89c2-5051bed9d61f" version="10">
   <Properties>
     <Name>Ultimate Civilization</Name>
     <Teaser>A civilization that has replaced all regular units with the best available unique unit. It is the best mankind has to offer.</Teaser>
@@ -161,7 +161,7 @@ Solidarity
 Receive a free Social Policy when you advance to the next era
 ...</Description>
     <Authors>Dustin Hammett (hamdawg87)</Authors>
-    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials.</SpecialThanks>
+    <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials. pip33pen for suggestions</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
@@ -203,13 +203,13 @@ Receive a free Social Policy when you advance to the next era
     <File md5="0FF389FBB70FABCDC4714B50B4561D54" import="0">Xml/Builds/BuildRuleChanges.xml</File>
     <File md5="3F2EFBB42A549F3A6B1264A39F93A4C3" import="0">Xml/Civilizations/Ultimate_Civilization.xml</File>
     <File md5="23F4821FCBEB63E0E11A9CA7574895EC" import="0">Xml/GameInfo/IconTextureAtlases.xml</File>
-    <File md5="0EDA1A1D5D38E990C586425E7E6B21E2" import="0">Xml/Leaders/Ozymandias.xml</File>
+    <File md5="1634705A83C522541497DA530F54EC14" import="0">Xml/Leaders/Ozymandias.xml</File>
     <File md5="4070570D20EEF9550E37C830EB872D7A" import="0">Xml/NewText/Diplomacy_Responses.xml</File>
     <File md5="449A29A0DC1505CD313A94328EE0DFCD" import="0">Xml/NewText/GameText.xml</File>
     <File md5="26A033DBC6A32669BE68CE18FDB2F190" import="0">Xml/NewText/LeaderDialog/Civ5_Dialog_Ozymandias.xml</File>
     <File md5="568604BE2E2E6F2DB0760B57F5DE5D83" import="0">Xml/Sounds/Sounds.xml</File>
     <File md5="D494FAD9AE33F355F02ECECAF8E8B986" import="0">Xml/Terrain/UniqueTileImprovements.xml</File>
-    <File md5="81A8F6BF20D1FA5B656A042194374150" import="0">Xml/Traits/UltimateTraits.xml</File>
+    <File md5="B53808B0228697B84FAEA1E384342DF1" import="0">Xml/Traits/UltimateTraits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

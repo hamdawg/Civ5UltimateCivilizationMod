@@ -364,7 +364,7 @@
 		</Row>
 		<Row>
 			<LeaderType>LEADER_OZYMANDIAS</LeaderType>
-			<TraitType>TRAIT_PHOENICIAN_HERITAGE_2</TraitType><!-- For some reason the Free Harbour part of this doesn't work. -->
+			<TraitType>TRAIT_PHOENICIAN_HERITAGE</TraitType><!-- For some reason the Free Harbour part of this doesn't work. -->
 		</Row>
 		<!--Embark earlier, and with more movement points-->
 		<Row>
