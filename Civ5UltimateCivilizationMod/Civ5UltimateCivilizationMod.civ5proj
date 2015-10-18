@@ -168,7 +168,7 @@ Receive a free Social Policy when you advance to the next era
     <Authors>Dustin Hammett (hamdawg87)</Authors>
     <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials. pip33pen for suggestions</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
-    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>10</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>

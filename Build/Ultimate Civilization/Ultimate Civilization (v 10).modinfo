@@ -164,7 +164,7 @@ Receive a free Social Policy when you advance to the next era
     <SpecialThanks>Civ Fanatics members Kael and Leugi for their great tutorials. pip33pen for suggestions</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
-    <MinCompatibleSaveVersion>3</MinCompatibleSaveVersion>
+    <MinCompatibleSaveVersion>10</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
     <SupportsMultiplayer>1</SupportsMultiplayer>
     <SupportsHotSeat>1</SupportsHotSeat>
@@ -209,7 +209,7 @@ Receive a free Social Policy when you advance to the next era
     <File md5="26A033DBC6A32669BE68CE18FDB2F190" import="0">Xml/NewText/LeaderDialog/Civ5_Dialog_Ozymandias.xml</File>
     <File md5="568604BE2E2E6F2DB0760B57F5DE5D83" import="0">Xml/Sounds/Sounds.xml</File>
     <File md5="D494FAD9AE33F355F02ECECAF8E8B986" import="0">Xml/Terrain/UniqueTileImprovements.xml</File>
-    <File md5="B53808B0228697B84FAEA1E384342DF1" import="0">Xml/Traits/UltimateTraits.xml</File>
+    <File md5="E7A235D73942E8D873A5240A8CCF678F" import="0">Xml/Traits/UltimateTraits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
